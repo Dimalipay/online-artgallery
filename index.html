@@ -1,98 +1,233 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MAKART WORK</title>
+    <title>ArtGalery</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'><link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="js/slider.js"></script>
   </head>
   <body>
-    
     <!-- ************HOME PAGE TITLE********** -->
-    <section class="homepage">
-        <h2>EXPLORE</h2>
-        <h3>THE</h3>
-        <h4>COLLECTION</h4>
-    </section>
+    <article class="wrapper">
+      <h2 class="title">Art Галерея</h2>
+    </article>
 
     <!-- ***************NAVIGATION BAR**************** -->
     <nav>
-      <a href="#" class="logo">Mak Artwork</a>
+      <a href="#" class="logo">Главная</a>
         <div class="link">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Join Us</a>
+          <a href="#">Главная</a>
+          <a href="galery.html">Галерея</a>
+          <a href="form.html">Подать работу</a>
+          <a href="info.html">О нас</a>
         </div>
     </nav>
       
+    <div class="container1">
+      <div data-text="Лучшие Работы" class="text"></div>
+    </div>
+
     <section class="page2">
-    <!--*************FLEX-BOX CONATINER******************  -->
-      <div class="container">
-        <div class="box" id="box-1"><button>Explore</button></div>
-        <div class="box" id="box-2"><button>Explore</button></div>
-        <div class="box" id="box-3"><button>Explore</button></div>
-        <div class="box" id="box-4"><button>Explore</button></div>
-        <div class="box" id="box-5"><button>Explore</button></div>
-        <div class="box" id="box-6"><button>Explore</button></div>
+      <div class="container3">
+        <div class="box" id="box-1"></div>
+        <div class="box" id="box-2"></div>
+        <div class="box" id="box-3"></div>
+        <div class="box" id="box-4"></div>
+        <div class="box" id="box-5"></div>
+        <div class="box" id="box-6"></div>
       </div>
     </section>
-    <section class="page3">
-    <!-- ***********PAGE-3 TITLE************* -->
-        <h1>
-          Don't be shy, ask the mak
-          <br />
-          team!
-        </h1>
 
-    <!-- ******************CONTACT DETAILS***************** -->
-      <div class="contact-container">
-        <div class="contact-item">
-            <div class="cimg-1"></div>
-            <p class="chatboxall">Let's have a Chat</p>
-            <a href="#" class="chatbox">Start a Live Chat</a>
-        </div>
-        <div class="contact-item">
-            <div class="cimg-2"></div>
-            <p class="chatboxall">Drop us a line</p>
-            <a href="#" class="chatbox">Submit a Request</a>
-        </div>
-        <div class="contact-item">
-            <div class="cimg-3"></div>
-            <p class="chatboxall">Get Connected</p>
-            <a href="#" class="chatbox">Tweet Us</a>
-        </div>
-      </div>     
+    <!-- *******************TimeLine************************ -->
+    <div class="container1">
+      <div data-text="История Искусства" class="text"></div>
+    </div>
+
+    <section class="cd-horizontal-timeline">
+      <div class="timeline">
+        <div class="events-wrapper">
+          <div class="events">
+            <ol>
+              <li><a href="#0" data-date="16/01/2014" class="selected">Этап 1</a></li>
+              <li><a href="#0" data-date="28/02/2014">Этап 2</a></li>
+              <li><a href="#0" data-date="20/04/2014">Этап 3</a></li>
+              <li><a href="#0" data-date="20/05/2014">Этап 4</a></li>
+              <li><a href="#0" data-date="09/07/2014">Этап 5</a></li>
+              <li><a href="#0" data-date="30/08/2014">Этап 6</a></li>
+              <li><a href="#0" data-date="15/10/2014">Этап 7</a></li>
+              <li><a href="#0" data-date="01/12/2014">Этап 8</a></li>
+              <li><a href="#0" data-date="10/12/2014">Этап 9</a></li>
+              <li><a href="#0" data-date="19/01/2015">Этап 10</a></li>
+              <li><a href="#0" data-date="03/03/2015">Этап 11</a></li>
+              <li><a href="#0" data-date="27/06/2015"></a></li>
+            </ol>
+
+            <span class="filling-line" aria-hidden="true"></span>
+          </div> <!-- .events -->
+        </div> <!-- .events-wrapper -->
+
+        <ul class="cd-timeline-navigation">
+          <li><a href="#0" class="prev inactive">Prev</a></li>
+          <li><a href="#0" class="next">Next</a></li>
+        </ul> <!-- .cd-timeline-navigation -->
+      </div> <!-- .timeline -->
+
+      <div class="events-content">
+        <ol>
+          <li class="selected" data-date="16/01/2014">
+            <h2>Искусство Древнего мира</h2>
+            <p>
+              Это искусство первых цивилизаций: Египта, Греции, Рима и прилегающих государств и цивилизаций. Искусство тесно связано с языческими верованиями, практически полностью посвящено божествам и мифологическим героям. В ранние периоды искусство разных цивилизаций имеет схожие черты первобытного, но в более поздние периоды происходит резкое отличие в архитектурных постройках, принципах и правилах изображения человека, животных и т.д.
+            </p>
+          </li>
+
+          <li data-date="28/02/2014">
+            <h2>Средневековье</h2>
+            <p>
+              Качественно новый этап в развитии всего европейского искусства, начавшийся с принятия странами западной Европы христианства, и в этом смысле объединивший тематику и направление стиля разных народов. Подразделяется на романский и готический стили.
+            </p>
+          </li>
+
+          <li data-date="20/04/2014">
+            <h2>Романский стиль</h2>
+            <p>
+              Художественный стиль, господствовавший в искусстве Западной Европы (и в некоторых странах Восточной Европы) в основном в 10–12 вв. Главная роль отводилась суровой, крепостного вида архитектуре. Монастырские комплексы, храмы, замки располагались на возвышенностях и господствовали над местностью; их наружный облик отличался монолитной цельностью, был исполнен спокойной иторжественной силы, подчеркнутой массивностью стен и объемов, ритмом простого по формам архитектурного декора. Внутри здания Романского стиляделились на отдельные ячейки, перекрытые сводами (иногда куполами). В изобразительном искусстве главное место занимали монументальные рельефы на порталах храмов и резные капители колонн, а также книжная миниатюра, получившая в эту эпоху значительное развитие. Высокого уровня достигло декоративно-прикладное искусство Романского стиля– литье, чеканка, резьба по кости, эмальерное дело и т.п.
+            </p>
+          </li>
+
+          <li data-date="20/05/2014">
+            <h2>Барокко</h2>
+            <p>
+              Один из главенствующих стилей в архитектуре и искусстве Европы и Латинской Америки конца 16 – середины 18 вв. Искусству барокко свойственны грандиозность, пышность и динамика, приподнятость, интенсивность чувств, эффектная зрелищность, сильные контрасты масштабов и ритмов, света и тени. Интерьеры зданий украшались многоцветной скульптурой, резьбой, зеркала и росписи иллюзорно расширяли пространство. В живописи это эмоциональность, ритм, свобода мазка, в скульптуре –текучесть формы, ощущение изменчивости
+            </p>
+          </li>
+
+          <li data-date="09/07/2014">
+            <h2>Академизм</h2>
+            <p>
+              Оторванность от практики, от жизненных реалий, направление, сложившееся в художественных академиях 16–19 вв. и основанное на буквальном следовании формам классического искусства эпох античности и Возрождения. Академизмнасаждал систему вневременных, "вечных" канонов, форм красоты, идеализированных образов.
+            </p>
+          </li>
+
+          <li data-date="30/08/2014">
+            <h2>Классицизм</h2>
+            <p>
+              Художественный стиль в европейском искусстве 11–начала 19 вв., одной из важнейших черт которого было обращение к античному искусству, как к эталону. Художественное произведение рассматривалось как на плод разума и логики, торжествующих над хаосом  и чувствами. В архитектуре Классицизма отличают логичность планировки и ясность объемов. В живописи основными элементами стали линия и светотень, локальный цвет. Неоклассицизм (18 – начала 19 вв) стал общеевропейским стилем, также формировался в основном во французской культуре, под сильнейшим влиянием идей Просвещения. В архитектуре это изысканный особняк, парадное общественное здание, открытая городская площадь, стремление к суровой простоте, драматизм исторических и портретных образов, господствование традиции академизма.
+            </p>
+          </li>
+
+          <li data-date="15/10/2014">
+            <h2>Романтизм</h2>
+            <p>
+              Художественное движение в европейской и американской культуре конца 18 – начала 19 вв. - устремленность к безграничной свободе ибесконечному, жажда совершенства и обновления, личная и гражданская независимость. Разлад идеала и действительности лег в основу романтизма; утверждение самоценности творческой и духовной жизни человека, изображение сильных страстей, одухотворение природы, интерес к национальному прошлому сочетаются с мотивами мировой скорби, тягой к исследованию и воссозданию "теневой", "ночной" стороны человеческой души.
+            </p>
+          </li>
+
+          <li data-date="31/12/2014">
+            <h2>Импрессионизм</h2>
+            <p>
+              Направление в искусстве конца 19 – начала 20 вв. Зародился во французской живописи конце 1860-х гг.: Э. Мане О. Ренуар, Э. Дега изображали мгновенные, «подсмотренные» в реальности ситуации, использовали неуравновешенные композиции, неожиданные ракурсы, точки зрения, срезы фигур. К. Монеи др.выработали систему пленэра, создавали в своих картинах ощущение сверкающего солнечного света и воздуха., богатства красок. Название направления произошло от наименования картины К. Моне "Впечатление. Восходящее солнце" экспонировалась в 1874 в Париже. В картинах сложные цвета разлагались на чистые составляющие, которые накладывались на холст отдельными мазками, цветные тени, рефлексы. Понятие Импрессионизм вскульптуре – это стремление к передаче мгновенного движения, текучестью и мягкостью формы.
+            </p>
+          </li>
+
+          <li data-date="10/12/2014">
+            <h2>Натурализм</h2>
+            <p>
+              Направление в искусстве, сложившееся в Европе и США в последней трети 19 в. и стремившееся к точному и беспристрастному воспроизведению реальности. Натурализм– это внешне жизнеподобное воспроизведение реальности, поверхностное изображение, пристрастие к воссозданию мрачных, теневых сторон жизни.
+            </p>
+          </li>
+
+          <li data-date="19/01/2015">
+            <h2>Модерн</h2>
+            <p>
+              Стиль в европейском и американском искусстве конца 19 в. – 1910-х гг. Мастера модернаиспользовали новые технические и конструктивные средства, создание необычных, подчеркнуто индивидуальных по облику зданий, фасады построек модернаобладают динамичностью и текучестью форм. Одним из основных выразительных средств в модернестал орнамент. Для живописи модерна характерны сочетание "ковровых" орнаментальных фонов и натуралистической осязаемости фигур и деталей, силуэтность, использование больших цветовых плоскостей. Динамикой и текучестью форм отличается скульптура и графика модерна.
+            </p>
+          </li>
+
+          <li data-date="03/03/2015">
+            <h2>Реализм</h2>
+            <p>
+              Это убежденность в познаваемости реального мира. Это творчество Рембрандта, Д. Веласкеса и др.
+            </p>
+          </li>
+        </ol>
+      </div> <!-- .events-content -->
     </section>
+
+    <!-- *******************Card************************ -->
+    <div class="container1">
+      <div data-text="Предстоящие Мероприятия" class="text"></div>
+    </div>
+
+    <section class="wrapper2">
+      
+      <div class="row">
+    <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('css/images/art5.jpg');">
+            <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+                <h4 class="card-title mt-0 "><a class="text-white" herf="#">Artist Project 2022</a></h4>
+              <small><i class="far fa-clock"></i> 21.04.2022 - 24.04.2022</small>
+              </div>
+              <div class="card-footer">
+              <div class="media">
+            <div class="media-body">
+               <small>Выставка Artist Project 2022 современного искусства в Торонто, Канада</small>
+            </div>
+    </div>
+              </div>
+            </div>
+          </div></div>
+        <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('css/images/art3.jpg');">
+            <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+                <h4 class="card-title mt-0 "><a class="text-white" herf="#">India Art Fair 2022</a></h4>
+              <small><i class="far fa-clock"></i> 28.04.2022 - 01.05.2022</small>
+              </div>
+              <div class="card-footer">
+              <div class="media">
+            <div class="media-body">
+               <small>Международная выставка India Art Fair 2022 для современного и современного искусства в Нью-Дели, Индия</small>
+            </div>
+    </div>
+              </div>
+            </div>
+          </div></div>
+      <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('css/images/art1.jpg');">
+            <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+                <h4 class="card-title mt-0 "><a class="text-white" herf="#">Fair of Tours 2022</a></h4>
+              <small><i class="far fa-clock"></i> 06.05.2022 - 15.05.2022</small>
+              </div>
+              <div class="card-footer">
+              <div class="media">
+            <div class="media-body">
+                <small>Выставка Fair of Tours 2022 искусства и ремесел в Туре, Франция</small>
+            </div>
+    </div>
+              </div>
+            </div>
+          </div></div>
+    </div>
+    </section>
+    <!-- partial -->
 
     <!-- *******************FOOTER************************ -->
     <footer>
@@ -104,8 +239,12 @@
     </div>
 
     <!-- *******************CREDIT************** -->
-      <h2>&#169 Copyright &nbsp|&nbsp Created by Louis Barsiwal</h2>
+      <h2></h2>
     </footer>
-   
+
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="js/slider.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="js/header.js"></script>
+
   </body>
 </html>
